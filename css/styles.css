@@ -1,0 +1,47 @@
+body{
+    ;
+
+}
+
+
+.justified{
+    text-align: center;
+}
+
+.color-section{
+    background-color: #e8d0c6;
+}
+
+.padded-container{
+    padding: 7% 10%;
+}
+
+.btn{
+    border: none;
+
+}
+
+.btn:hover{
+    color: azure;
+}
+
+#title{
+    padding: 7% 15% 2% 15%;
+}
+
+/* Icon Down */
+
+.hover-down {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.btn:hover .hover-down {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(50%); }
+  100% { transform: translateY(0); }
+}
