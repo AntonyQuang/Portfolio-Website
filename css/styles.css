@@ -16,17 +16,60 @@ body{
     padding: 7% 10%;
 }
 
+
+#title .fa-xl {
+    text-decoration: none;
+    color: black;
+    transition-duration: 300ms;
+}
+
+#title .fa-xl:hover {
+    color: LightSlateGrey;
+}
+
+.left-lean {
+    padding-left: 15%;
+}
+
+/* Navigation bar */
+
+.nav-item {
+    transition-duration: 300ms;
+}
+
+.nav-item:hover {
+    background: #e8d0c6;
+}
+
+.nav-item:active {
+    background: #e8d0c6;
+}
+
+/* Buttons */
+
+.navbar-toggler {
+    margin: 2% 0;
+}
+
+.title-btn{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .btn{
     border: none;
 
 }
 
 .btn:hover{
-    color: azure;
+    color: LightSlateGrey;
 }
 
 #title{
-    padding: 7% 15% 2% 15%;
+    padding-right: auto;
+    padding-left: auto;
+    padding-bottom: 50vh;
+    padding-top: 5%;
 }
 
 /* Icon Down */
