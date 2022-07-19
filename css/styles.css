@@ -1,3 +1,5 @@
+/* General */
+
 body{
     ;
 
@@ -13,14 +15,40 @@ body{
 }
 
 .padded-container{
-    padding: 7% 10%;
+    padding: 1% 1% 1% 7%;
 }
 
+/* Title */
+
+#title{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#title h1{
+    font-size: 6vw;
+    padding-top: 7%;
+
+}
+
+#title h3{
+    font-size: 3vw;
+
+}
 
 #title .fa-xl {
     text-decoration: none;
-    color: black;
+    color: var(--bs-heading-color);
     transition-duration: 300ms;
+    font-size: 2.5vw;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 800px) {
+  #title .fa-xl {
+    font-size: 6vw;
+  }
 }
 
 #title .fa-xl:hover {
@@ -34,7 +62,9 @@ body{
 /* Navigation bar */
 
 .nav-item {
+    font-weight: bold;
     transition-duration: 300ms;
+    border-radius: 5px 13px;
 }
 
 .nav-item:hover {
@@ -45,34 +75,49 @@ body{
     background: #e8d0c6;
 }
 
+.navbar-brand {
+    font-weight: bold;
+    transition-duration: 300ms;
+    padding: 0.2%;
+    border-radius: 5px 13px;
+}
+
+.navbar-brand:hover {
+    background: #e8d0c6;
+}
+
 /* Buttons */
+
 
 .navbar-toggler {
     margin: 2% 0;
 }
 
 .title-btn{
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-weight: bold;
+    transition-duration: 200ms;
+}
+
+@media screen and (max-width: 800px) {
+    .title-btn {
+      font-size: 3vw;
+    }
 }
 
 .btn{
     border: none;
-
 }
+
+
 
 .btn:hover{
     color: LightSlateGrey;
+    border: none;
 }
 
-#title{
-    padding-right: auto;
-    padding-left: auto;
-    padding-bottom: 50vh;
-    padding-top: 5%;
-}
 
-/* Icon Down */
+/* Title button animation */
 
 .hover-down {
     animation-duration: 2s;
