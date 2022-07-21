@@ -5,6 +5,9 @@ body{
 
 }
 
+h1{
+    font-size: 4vw;
+}
 
 .justified{
     text-align: center;
@@ -18,6 +21,36 @@ body{
 .colour-section{
     background-color: #e8d0c6;
 }
+
+
+/* Navigation bar */
+
+.nav-item {
+    font-weight: bold;
+    transition-duration: 300ms;
+    border-radius: 5px 13px;
+}
+
+.nav-item:hover {
+    background: #e8d0c6;
+}
+
+.nav-item:active {
+    background: #e8d0c6;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    transition-duration: 300ms;
+    padding: 0.2%;
+    border-radius: 5px 13px;
+}
+
+.navbar-brand:hover {
+    background: #e8d0c6;
+}
+
+
 
 /* Title */
 
@@ -65,21 +98,14 @@ body{
 
 #about-me{
     padding-bottom: 5%;
-    padding-top: 2%;
 }
 
-#about-me h1{
-    font-size: 4vw;
+
+.about-me-title-container{
+    padding-top: 5vw;
+    padding-bottom: 2vw;
 }
 
-#about-me .container-fluid{
-    padding-top: 5%;
-}
-
-#about-me .padded-text{
-    padding-left: %;
-    padding-right: ;
-}
 
 #about-me p {
  text-align: justify;
@@ -109,35 +135,25 @@ body{
 
 
 
-/* Navigation bar */
-
-.nav-item {
-    font-weight: bold;
-    transition-duration: 300ms;
-    border-radius: 5px 13px;
-}
-
-.nav-item:hover {
-    background: #e8d0c6;
-}
-
-.nav-item:active {
-    background: #e8d0c6;
-}
-
-.navbar-brand {
-    font-weight: bold;
-    transition-duration: 300ms;
-    padding: 0.2%;
-    border-radius: 5px 13px;
-}
-
-.navbar-brand:hover {
-    background: #e8d0c6;
-}
-
 
 /* My Projects */
+
+#my-projects {
+    padding-bottom: 5%;
+}
+
+#my-projects .fluid-container{
+    padding-top: 2vw;
+}
+
+#my-projects h1{
+    font-size: 4vw;
+}
+
+.my-projects-title-container{
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
 
 .my-projects-table{
     background-color: #b9a59c;
@@ -147,6 +163,13 @@ body{
 
 .card{
     padding-top: 1%
+}
+
+#my-projects hr{
+    border-top: 10px dotted white;
+    width: 100%;
+    margin: 2% auto;
+
 }
 
 /* Video */
