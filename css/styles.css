@@ -53,7 +53,7 @@ body{
 }
 
 #title .fa-xl:hover {
-    color: LightSlateGrey;
+    color: #786962;
 }
 
 .left-lean {
@@ -141,6 +141,19 @@ body{
     background: #e8d0c6;
 }
 
+
+/* My Projects */
+
+.my-projects-table{
+    background-color: #b9a59c;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.card{
+    padding-top: 1%
+}
+
 /* Video */
 
 .video-container {
@@ -190,7 +203,7 @@ a.title-btn{
 
 
 .btn:hover{
-    color: LightSlateGrey;
+    color: #786962;
     border: none;
 }
 
