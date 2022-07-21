@@ -1,4 +1,8 @@
 /* General */
+html {
+    scroll-padding-top: 50px;
+}
+
 
 body{
 
@@ -24,6 +28,7 @@ h1{
 
 
 /* Navigation bar */
+
 
 .nav-item {
     font-weight: bold;
