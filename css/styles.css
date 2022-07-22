@@ -4,9 +4,19 @@ html {
 }
 
 
-body{
+.fadein {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
-
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 h1{
@@ -205,6 +215,11 @@ h1{
     padding-top: 2vw;
 }
 
+.contact-me-title-container{
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+}
+
 .form-group {
     padding-bottom: 25px;
 }
@@ -224,6 +239,27 @@ h1{
   box-shadow: 0 0 0 0.3rem rgba(232, 208, 198, 0.25);
   border-color: rgba(232, 208, 198);
   }
+
+
+/* footer */
+
+#footer {
+padding-top: 2%;
+padding-botton: 5%;
+}
+
+#footer .fa-xl {
+    text-decoration: none;
+    color: var(--bs-heading-color);
+    transition-duration: 300ms;
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+#footer .fa-xl:hover {
+    color: #786962;
+}
+
 
 /* Buttons */
 
