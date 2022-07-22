@@ -195,6 +195,36 @@ h1{
 	height:100%;
 }
 
+/* Contact-Me */
+
+#contact-me {
+    padding-bottom: 5%;
+}
+
+#contact-me .fluid-container{
+    padding-top: 2vw;
+}
+
+.form-group {
+    padding-bottom: 25px;
+}
+
+.invalid-feedback{
+    position: absolute;
+    margin-top: 0;
+    width: 10vw;
+}
+
+#contact-me button{
+    margin-top: 2%;
+}
+
+
+.form-control:focus{
+  box-shadow: 0 0 0 0.3rem rgba(232, 208, 198, 0.25);
+  border-color: rgba(232, 208, 198);
+  }
+
 /* Buttons */
 
 a.title-btn{
